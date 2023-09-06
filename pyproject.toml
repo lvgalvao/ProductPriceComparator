@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "productpricecomparator"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Filho <lvgalvaofilho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+duckdb = "^0.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
